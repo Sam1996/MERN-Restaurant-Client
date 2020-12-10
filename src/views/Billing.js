@@ -69,7 +69,7 @@ const Billing = (props) => {
         setOpen(false);
     };
 
-    useEffect(getGrandTotal, [checked]);
+    useEffect(getGrandTotal, [checked, subTotal]);
 
     return (
         <>
